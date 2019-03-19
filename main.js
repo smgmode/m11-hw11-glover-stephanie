@@ -17,3 +17,5 @@ function loopThrough() {
 for (let i = 0; i < myBoxes.length; i++) {
   myBoxes[i].addEventListener('click', loopThrough);
 };
+
+//Note - This ES6 code that is doing something the number of times the length of the word.
