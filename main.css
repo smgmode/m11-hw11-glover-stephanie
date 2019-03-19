@@ -10,7 +10,11 @@ li {
 ul li p {
   padding: 15%;
   margin: 0;
+  background-color: #fff; /* paragraph initial value for the transition to work */
+  transition: background-color: 1000ms; /*add transition */
+
 }
 .red {
-  background-color: red;
+  background-color: #333; /* red class add the hex value for whatever color you choose  */
+  transition: background-color: 1000ms; /*add transition */
 }
